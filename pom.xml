@@ -42,11 +42,17 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- LOMBOK (opcional) -->
+		<!-- LOMBOK -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+
+		<!-- FLYWAY -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
 		</dependency>
 
 		<!-- TESTES -->

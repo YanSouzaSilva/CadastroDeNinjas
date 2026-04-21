@@ -14,7 +14,7 @@ public class MissoesController {
 
     // Mostrar todas as missoes (READ)
     // GET -- Pegar uma requisicao para mostrar as missoes
-    @GetMapping("/mostrar")
+    @GetMapping("/listar")
     public String mostrarMissao(){
         return "Mostrando todas missoes.";
     }

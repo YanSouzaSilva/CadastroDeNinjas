@@ -30,5 +30,14 @@ public class NinjaService {
         return ninjaRepository.save(ninja);
     }
 
+    // Deletar um ninja pelo ID - Tem que retornar um metodo void
+    public void deletarNinjaPorId(Long id){
+        ninjaRepository.deleteById(id);
+    }
+
+    // Alterar dados do ninja pelo ID
+    /*public NinjaModel alterarNinjaPorId(Long id){
+        ninjaRepository.
+    }*/
 
 }
